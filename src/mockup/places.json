@@ -1,0 +1,55 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "first_name": "Sonny",
+            "last_name": "Allward",
+            "email": "sallward0@umn.edu",
+            "gender": "Genderfluid",
+            "ip_address": "24.3.199.140"
+        },
+        {
+            "id": 2,
+            "first_name": "Manfred",
+            "last_name": "Erickson",
+            "email": "merickson1d@mapquest.com",
+            "gender": "Genderfluid",
+            "ip_address": "103.30.222.192"
+        }
+    ],
+    "places": [
+        {
+            "id": 1,
+            "place_name": "Beets",
+            "sku": "54949-004",
+            "price": 27,
+            "category": "Beauty",
+            "location": {
+                "lat": -8.812,
+                "lng": 121.974
+            }
+        },
+        {
+            "id": 2,
+            "place_name": "Beets",
+            "sku": "54949-004",
+            "price": 27,
+            "category": "Beauty",
+            "location": {
+                "lat": -8.812,
+                "lng": 121.974
+            }
+        },
+        {
+            "id": 3,
+            "place_name": "Beets",
+            "sku": "54949-004",
+            "price": 27,
+            "category": "Beauty",
+            "location": {
+                "lat": -8.812,
+                "lng": 121.974
+            }
+        }
+    ]
+}
