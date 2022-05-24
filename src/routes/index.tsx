@@ -6,11 +6,14 @@ import Details from '../views/Details';
 import Profile from '../views/Profile';
 import Settings from "../views/Settings";
 import About from "../views/About";
+import RegisterCompany from "../views/RegisterCompany";
+
 
 const RoutesViews = () => {
   return (
     <Routes>
       <Route path="/" element={<Login />} />
+      <Route path="/register/company" element={<RegisterCompany />} />
       <Route path="/home" element={<Home />} />
       <Route path="/search" element={<Search />} />
       <Route path="/details" element={<Details />} />

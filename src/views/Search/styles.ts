@@ -26,13 +26,11 @@ export const HeaderMenuRight = styled.div`
     width: 100%;
     height: 100px;
     padding: 10px;
-    //background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-around;
     z-index: 999;
     position: relative;
-
     h1{
         font-size: 15px;
         color: #fff;
@@ -49,7 +47,6 @@ export const HeaderMenuRight = styled.div`
 export const RecommendedSection = styled.div`
     width: 100%;
     height: 150px;  
-    //background-color: #111;
     padding: 10px;
     z-index: 999;
     position: absolute;
@@ -66,7 +63,6 @@ export const ArrowButton = styled.div`
     position: absolute;
     top: -40px;
     right: 11px;
-
     svg{
         background-color: #C4C4C4;
         color: #fff;
@@ -85,6 +81,13 @@ export const ImgUser = styled.div`
     border-radius: 50%;
     cursor: pointer;
     box-shadow: 4px 10px 10px rgb(0 0 0 / 20%);
+    margin-left: 5px;
+    img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+    }
 `;
 
 export const LabelSearch = styled.div`
@@ -96,6 +99,9 @@ export const LabelSearch = styled.div`
     align-items: center;
     justify-content: center;
     box-shadow: 4px 10px 10px rgb(0 0 0 / 20%);
+    @media (max-width: 500px) {
+        width: 300px;
+    }
 `;
 
 export const InputSearch = styled.input`

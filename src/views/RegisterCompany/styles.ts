@@ -9,7 +9,6 @@ export const Container = styled.div`
 `;
 
 export const LeftContainer = styled.div`
-    filter: grayscale(71%);
     width: 40%;
     height: 95%;
     box-shadow: -6px 3px 1em #111111a8;
@@ -51,10 +50,9 @@ export const Form = styled.form`
     justify-content: center;
     align-items: flex-start;
     gap: 10px;
-    width: 300px;
 `;
 
-export const H1 = styled.h1<{ changeLogin: boolean }>`
+export const H1 = styled.h1`
     color: #363636;
     margin: -10px -4px;
     position: relative;
@@ -65,11 +63,11 @@ export const H1 = styled.h1<{ changeLogin: boolean }>`
         height: 40px;
         background: rgba(0, 200, 151, 0.49);
         top: 5px;
-        right: ${props => props.changeLogin ? '15px' : '-7px'};
+        right: 15px;
         border-radius: 50%;
     }
     &::after{
-        content:'';
+        content: '';
         width: 40px;
         position: absolute;
         height: 8px;
@@ -77,7 +75,6 @@ export const H1 = styled.h1<{ changeLogin: boolean }>`
         top: 23px;
         right: 74px;
         border-radius: 5px;
-        display: ${props => props.changeLogin ? 'block' : 'none'};
     }
     span{
         margin: 0 35px;
@@ -133,15 +130,12 @@ export const Button = styled.button`
     }
 `;
 
-export const BtnSingup = styled.button`
+export const Strong = styled.strong`
     color: #00C897;
     cursor: pointer;
-    border: none;
-    background: none;
-    font-size: 15px;
 `;
 
-export const ImgRight = styled.img`
+export const ImgRight = styled.video`
     width:80px;
     height:80px;
 `;

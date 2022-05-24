@@ -1,11 +1,8 @@
 import { Link } from "react-router-dom";
 import logo2 from '../../assets/logo-3.png';
-import photoProfile from '../img/peopleProfile.jpg';
-import hotelProfile from '../img/hotel-profile.webp';
-import hotelProfile2 from '../img/hotel-profile-2.webp';
-import hotelProfile3 from '../img/hotel-profile-3.jpg';
 import EditProfile from '../img/edit.svg';
 import { AiFillInstagram, AiFillFacebook } from 'react-icons/ai';
+import { FiEdit } from 'react-icons/fi';
 import { 
   PageProfile, 
   Header, 
@@ -40,9 +37,9 @@ export default function Profile() {
           <Photo>
             <ImagemDiv>
               <label htmlFor="#">
-                <input id="#" type="file" accept="image/*" />
+                <input type="file" accept="image/*" />
               </label>
-              <img src='' alt="Sua imagem de perfil." />
+              <img src='https://picsum.photos/id/1005/200/300' alt="Sua imagem de perfil." />
             </ImagemDiv>
 
             <PhotoName>
@@ -52,25 +49,25 @@ export default function Profile() {
 
           <LikeTravel>
             <h3>Recomendado por Marcela.</h3>
-            <div className="like">
+            <div>
               <h4>Copacabana Palace</h4>
-              <img src='' alt="imagem do hotel" />
+              <img src='https://picsum.photos/id/1031/200/300' alt="imagem do hotel" />
             </div>
-            <div className="like">
+            <div>
               <h4>Emiliano Hotel</h4>
-              <img src='' alt="imagem do hotel" />
+              <img src='https://picsum.photos/id/1029/200/300' alt="imagem do hotel" />
             </div>
-            <div className="like">
+            <div>
               <h4>Villa de Trancoso Hotel</h4>
-              <img src='' alt="imagem do hotel" />
+              <img src='https://picsum.photos/id/122/200/300' alt="imagem do hotel" />
             </div>
           </LikeTravel>
         </ProfileLeft>
         <ProfileRight>
           <AboutMe>
             <h3>Sobre mim</h3>
-            <button type="button" id="edit-about">
-              <img src='' id="edit-img" alt="Editar sua descrição" />
+            <button type="button">
+              <FiEdit/>
             </button>
 
             <ContentEdit>
@@ -78,15 +75,15 @@ export default function Profile() {
             </ContentEdit>
 
             <RedeSocialAbout>
-              <label className="rede-social-about-1">
+              <label>
                 <a href="#">
-                  <AiFillInstagram className="icon-social-about icon-color-1" />
+                  <AiFillInstagram/>
                   <span>Instagram</span>
                 </a>
               </label>
-              <label className="rede-social-about-2">
+              <label>
                 <a href="#">
-                  <AiFillFacebook className="icon-social-about icon-color" />
+                  <AiFillFacebook/>
                   <span>Facebook</span>
                 </a>
               </label>

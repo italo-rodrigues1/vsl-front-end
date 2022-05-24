@@ -79,7 +79,8 @@ export default function Search() {
             <ButtonSearch type="submit">Search</ButtonSearch>
           </LabelSearch>
           <ImgUser onClick={() => btnMenu ? setBtnMenu(false) : setBtnMenu(true)}>
-            <AiOutlineUser/>
+            {/* <AiOutlineUser/> */}
+            <img src="https://picsum.photos/seed/picsum/200/300" alt="Imagem de perfil" />
             {!btnMenu ? <Menu/> : null}
           </ImgUser>
         </HeaderMenuRight>
@@ -106,7 +107,7 @@ export default function Search() {
                     navigate('/details');
                   }
                 }}
-                opacity={0.5}
+                //opacity={0.5}
                 
               >
                 <Tooltip>

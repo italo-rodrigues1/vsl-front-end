@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import { Card, CardContent, CardImg,RightEffectDiv} from './styles';
+import { Card, CardContent, CardImg} from './styles';
 import {AiFillStar} from 'react-icons/ai';
-import ImgTest from '../../assets/pessoas em cadeiras de rodas 1.jpg';
+// import ImgTest from '../../assets/pessoas em cadeiras de rodas 1.jpg';
 
 
 export default function CardRemmended(data:any) {
@@ -27,7 +27,7 @@ export default function CardRemmended(data:any) {
         {data.data.map((item:any) => (
           <>
             <CardImg>
-            <img src={ImgTest} alt='imagem para os comentários do cards' />
+            <img src='https://picsum.photos/seed/picsum/200/300' alt='imagem para os comentários do cards' />
             </CardImg>
             <CardContent>
               <h3>{item.place_name}</h3>

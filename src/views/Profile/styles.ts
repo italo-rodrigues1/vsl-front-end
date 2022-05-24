@@ -2,21 +2,20 @@ import styled from 'styled-components';
 
 export const PageProfile = styled.div`
     width: 100%;
-    height: 126vh;
+    height: 100vh;
     background:#ECE9E6;
-
     @media (max-width: 725px) {
-        height: 198vh;
+        height: auto;
     }
 `;
 
 export const Header = styled.header`
     width: 100%;
-    height: 200px;
+    height: 150px;
     background: linear-gradient(to right, #1d976c, #93f9b9);
 `;
 
-export const LogoProfile =styled.div`
+export const LogoProfile = styled.div`
     align-items: center;
     justify-content: center;
     display: flex;
@@ -27,15 +26,11 @@ export const LogoProfile =styled.div`
 
 export const ContainerProfile = styled.div`
     display: flex;
-    padding: 20px;
+    margin-top: -41px;
     width: 100%;
-    height: 100%;
-    position: absolute;
     align-items: center;
     justify-content:center;
-    top: 190px;
     z-index: 2;
-    
     @media (max-width: 725px) {
         flex-direction: column;
         top: 130px;
@@ -44,9 +39,8 @@ export const ContainerProfile = styled.div`
     }
 `;
 
-export const ProfileLeft =styled.section`
+export const ProfileLeft = styled.section`
     width: 20rem;
-    height: 120vh;
     display: flex;
     float: left;
     margin-right: 20px;
@@ -58,9 +52,8 @@ export const ProfileLeft =styled.section`
     }
 `;
 
-export const ProfileRight =styled.section`
+export const ProfileRight = styled.section`
     width: 35rem;
-    height: 120vh;
     float: right;
     display: flex;
     flex-direction: column;
@@ -118,6 +111,7 @@ export const ImagemDiv = styled.div`{
 export const PhotoName = styled.div`
     margin-top: 20px;
     color: #fff;
+    position: relative;
     h2{
         &::before{
             content:"";
@@ -126,7 +120,8 @@ export const PhotoName = styled.div`
             height: 20px;
             width:72px;
             border-radius: 2px;
-            margin-top: 10px;
+            top: 9px;
+            left: 0px;
         }
         &::after{
             content: "";
@@ -135,7 +130,8 @@ export const PhotoName = styled.div`
             height: 20px;
             width: 72px;
             border-radius: 2px;
-            margin: -21px -74px;
+            top: -15px;
+            right: 0px;
         }
     }
 `;
@@ -168,11 +164,14 @@ export const LikeTravel = styled.div`{
             color: #fff;
             padding-left: 10px;
         } 
-
         @media (max-width: 725px) {
             margin:15px 0;
         }
     }
+    h3{
+        color: #fff;
+        padding-left: 10px;
+    } 
 }`;
 
 export const AboutMe = styled.div`
@@ -199,6 +198,11 @@ export const AboutMe = styled.div`
         background: none;
         border: none;
         color: #fff;
+        margin: 5px;
+        svg{
+            width: 80%;
+            height: 100%;
+        }
         &:hover{
             background: #111;
             border-radius: 10px;
@@ -207,7 +211,7 @@ export const AboutMe = styled.div`
 `;
 
 export const HistoricTravel = styled.div`
-    height: 100%;
+    height: 500px;
     background: #202024;
     border-radius: 10px;
     margin-top: 30px;
