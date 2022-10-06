@@ -1,13 +1,13 @@
-import { Routes,Route } from "react-router-dom"
+import { Route, Routes } from "react-router-dom";
+import About from "../views/About";
+import Details from '../views/Details';
 import Home from '../views/Home';
 import Login from '../views/Login';
-import Search from '../views/Search';
-import Details from '../views/Details';
-import Profile from '../views/Profile';
-import Settings from "../views/Settings";
-import About from "../views/About";
-import RegisterCompany from "../views/RegisterCompany";
 import NotFound from "../views/NotFound";
+import Profile from '../views/Profile';
+import RegisterCompany from "../views/RegisterCompany";
+import Search from '../views/Search';
+import Settings from "../views/Settings";
 import PrivateRoute from './authRoute';
 
 const RoutesViews = () => {
@@ -15,6 +15,7 @@ const RoutesViews = () => {
     <Routes>
       <Route path="/" element={<Login />} />
       <Route path="/register/company" element={<RegisterCompany />} />
+      
       <Route path="/home" element={<PrivateRoute><Home/></PrivateRoute>} />
       <Route path="/search" element={<PrivateRoute><Search /></PrivateRoute>} />
       <Route path="/details" element={<PrivateRoute><Details /></PrivateRoute>} />

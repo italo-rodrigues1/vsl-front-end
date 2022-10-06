@@ -1,55 +1,168 @@
-{
-    "users": [
-        {
-            "id": 1,
-            "first_name": "Sonny",
-            "last_name": "Allward",
-            "email": "sallward0@umn.edu",
-            "gender": "Genderfluid",
-            "ip_address": "24.3.199.140"
-        },
-        {
-            "id": 2,
-            "first_name": "Manfred",
-            "last_name": "Erickson",
-            "email": "merickson1d@mapquest.com",
-            "gender": "Genderfluid",
-            "ip_address": "103.30.222.192"
+[
+    {
+        "id": 1,
+        "place_name": "Beets",
+        "sku": "54949-004",
+        "price": 27,
+        "category": "Beauty",
+        "location": {
+            "lat": -8.812,
+            "lng": 121.974
         }
-    ],
-    "places": [
-        {
-            "id": 1,
-            "place_name": "Beets",
-            "sku": "54949-004",
-            "price": 27,
-            "category": "Beauty",
-            "location": {
-                "lat": -8.812,
-                "lng": 121.974
-            }
-        },
-        {
-            "id": 2,
-            "place_name": "Beets",
-            "sku": "54949-004",
-            "price": 27,
-            "category": "Beauty",
-            "location": {
-                "lat": -8.812,
-                "lng": 121.974
-            }
-        },
-        {
-            "id": 3,
-            "place_name": "Beets",
-            "sku": "54949-004",
-            "price": 27,
-            "category": "Beauty",
-            "location": {
-                "lat": -8.812,
-                "lng": 121.974
-            }
+    },
+    {
+        "id": 2,
+        "place_name": "Beets",
+        "sku": "54949-004",
+        "price": 27,
+        "category": "Beauty",
+        "location": {
+            "lat": -8.812,
+            "lng": 121.974
         }
-    ]
-}
+    },
+    {
+        "id": 3,
+        "place_name": "Beets",
+        "sku": "54949-004",
+        "price": 27,
+        "category": "Beauty",
+        "location": {
+            "lat": -8.812,
+            "lng": 121.974
+        }
+    },
+    {
+        "id": 4,
+        "place_name": "Hotel-Abreu e lima",
+        "highlights": [
+            2,
+            3,
+            2,
+            4
+        ],
+        "sku": "54949-004",
+        "comments": "testando comentário",
+        "imagemUrl": "https://images.pexels.com/photos/96444/pexels-photo-96444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "price": 27,
+        "category": "Recife",
+        "location": {
+            "lat": -7.8986274,
+            "lng": -34.8955087
+        }
+    },
+    {
+        "id": 5,
+        "place_name": "Hotel-Abreu e lima",
+        "highlights": [
+            2,
+            3,
+            2,
+            4
+        ],
+        "sku": "54949-004",
+        "comments": "testando comentário",
+        "imagemUrl": "https://images.pexels.com/photos/96444/pexels-photo-96444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "price": 27,
+        "category": "Recife",
+        "location": {
+            "lat": -7.8986175,
+            "lng": -34.8955087
+        }
+    },
+    {
+        "id": 6,
+        "place_name": "Hotel-Abreu e lima",
+        "highlights": [
+            2,
+            3,
+            2,
+            4
+        ],
+        "sku": "54949-004",
+        "comments": "testando comentário",
+        "imagemUrl": "https://images.pexels.com/photos/96444/pexels-photo-96444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "price": 27,
+        "category": "Recife",
+        "location": {
+            "lat": -7.8986174,
+            "lng": -34.8935087
+        }
+    },
+    {
+        "id": 7,
+        "place_name": "Hotel-Abreu e lima",
+        "highlights": [
+            2,
+            3,
+            2,
+            4
+        ],
+        "sku": "54949-004",
+        "comments": "testando comentário",
+        "imagemUrl": "https://images.pexels.com/photos/96444/pexels-photo-96444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "price": 27,
+        "category": "Recife",
+        "location": {
+            "lat": -7.8966174,
+            "lng": -34.8955787
+        }
+    },
+    {
+        "id": 8,
+        "place_name": "Hotel-Abreu e lima",
+        "highlights": [
+            2,
+            3,
+            2,
+            4
+        ],
+        "sku": "54949-004",
+        "comments": "testando comentário",
+        "imagemUrl": "https://images.pexels.com/photos/96444/pexels-photo-96444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "price": 27,
+        "category": "Recife",
+        "location": {
+            "lat": -7.8586174,
+            "lng": -34.8655087
+        }
+    },
+    {
+        "id": 9,
+        "place_name": "Hotel-Abreu e lima",
+        "highlights": [
+            2,
+            3,
+            2,
+            4
+        ],
+        "sku": "54949-004",
+        "comments": "testando comentário",
+        "imagemUrl": "https://images.pexels.com/photos/96444/pexels-photo-96444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "price": 27,
+        "category": "Recife",
+        "location": {
+            "lat": -7.8986474,
+            "lng": -34.8955087
+        }
+    },
+    {
+        "id": 10,
+        "place_name": "Hotel-Abreu e lima",
+        "highlights": [
+            2,
+            3,
+            2,
+            4
+        ],
+        "sku": "54949-004",
+        "comments": "testando comentário",
+        "imagemUrl": "https://images.pexels.com/photos/96444/pexels-photo-96444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "price": 27,
+        "category": "Recife",
+        "location": {
+            "lat": -7.89869374,
+            "lng": -34.8955087
+        }
+    }
+]

@@ -59,20 +59,6 @@ export const RecommendedSection = styled.div`
 
 `;
 
-export const ArrowButton = styled.div`
-    position: absolute;
-    top: -40px;
-    right: 11px;
-    svg{
-        background-color: #C4C4C4;
-        color: #fff;
-        border-radius: 10px;
-        width: 30px;
-        height: 30px;
-        margin-right: 5px;
-        cursor: pointer;
-    }
-`;
 
 export const ImgUser = styled.div`
     width: 50px;
