@@ -1,7 +1,7 @@
 /* eslint-disable react/react-in-jsx-scope */
 import Leaflet from "leaflet";
 import "leaflet/dist/leaflet.css";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { AiOutlineUser } from "react-icons/ai";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import {
@@ -13,10 +13,11 @@ import {
   Tooltip,
 } from "react-leaflet";
 import { Link, useNavigate } from "react-router-dom";
-import LogoMarker from "../../assets/Frame 3.png";
+import LogoMarker from "../../assets/Group 333.svg";
 import CardRemmended from "../../components/CardRemmended";
 import CarouselAndCards from "../../components/Carousel";
 import Menu from "../../components/Menu";
+import { AuthContext } from "../../context/User";
 import place from "../../mockup/places.json";
 import { Places } from "../../types/Places";
 import {
@@ -34,6 +35,8 @@ import {
 export default function Search() {
   const navigate = useNavigate();
   // const [place, setPlace] = useState<Places | any>([]);
+  const { loggedUser  } = useContext(AuthContext) as any;
+
   const [inputSearch, setInputSearch] = useState<string>("");
   const [btnMenu, setBtnMenu] = useState<boolean>(true);
 
@@ -47,22 +50,6 @@ export default function Search() {
       (position) => {
         const { latitude, longitude } = position.coords;
         console.log(latitude, longitude);
-        // setPlace([
-        //   {
-        //     place_name: "Hotel-Abreu e lima",
-        //     highlights: [2, 3, 2, 4],
-        //     sku: "54949-004",
-        //     comments: "testando comentário",
-        //     imagemUrl:
-        //       "https://images.pexels.com/photos/96444/pexels-photo-96444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        //     price: 27,
-        //     category: "Recife",
-        //     location: {
-        //       lat: latitude,
-        //       lng: longitude,
-        //     },
-        //   },
-        // ]);
         setCenterMap({ lat: latitude, lng: longitude });
         setLoading(false);
       },
@@ -76,17 +63,14 @@ export default function Search() {
     );
   };
 
-  const currentId = (event: any) => {
-    console.log("event.target.value", event.target.value);
-
-    const { id } = event.target.value;
+  const currentId = (id: any) => {
     console.log("id", id);
-    // navigate("/details");
+    navigate(`/details/${id}`);
   };
 
   const mapPinIcon = Leaflet.icon({
     iconUrl: LogoMarker,
-    iconSize: [55, 55],
+    iconSize: [80, 80],
   });
 
   useEffect(() => {
@@ -112,7 +96,11 @@ export default function Search() {
           >
             {/* <AiOutlineUser/> */}
             <img
-              src="https://picsum.photos/seed/picsum/200/300"
+              src={
+                loggedUser
+                  ? loggedUser.picture
+                  : "https://picsum.photos/seed/picsum/200/300"
+              }
               alt="Imagem de perfil"
             />
             {!btnMenu ? <Menu /> : null}
@@ -137,14 +125,15 @@ export default function Search() {
             >
               {/* <TileLayer url="https://a.tile.openstreetmap.org/{z}/{x}/{y}.png"/>*/}
               <TileLayer
-                url={`https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${
+                url={`https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${
                   import.meta.env.VITE_MAPBOX_TOKEN
                 }`}
               />
               {place.map((places: any) => (
                 <Marker
                   key={places.id}
-                  position={[places.location.lat, places.location.lng]}
+                  // position={[places.location.lat, places.location.lng]}
+                  position={[places.location_lat, places.location_lng]}
                   icon={mapPinIcon}
                   eventHandlers={{
                     click: () => {

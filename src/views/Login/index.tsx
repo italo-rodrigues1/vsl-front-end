@@ -1,13 +1,14 @@
-import { useState } from "react";
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import jwt_decode from "jwt-decode";
+import { useContext, useEffect, useState } from "react";
 import { AiOutlineUser } from "react-icons/ai";
 import { BsEyeSlash } from "react-icons/bs";
 import { FcGoogle } from "react-icons/fc";
 import { FiAtSign } from "react-icons/fi";
-import { useNavigate } from "react-router-dom";
-import { toast } from "react-toastify";
+import { IoEyeSharp } from "react-icons/io5";
 import Imageleft from "../../assets/imagem-principal-login.jpg";
 import Logo from "../../assets/logo-1.png";
-import api from "../../services/api";
+import { AuthContext } from "../../context/User";
 import {
   BtnSingup,
   Button,
@@ -22,37 +23,44 @@ import {
   LeftContainer,
   P,
   RightContainer,
-  Span
+  Span,
 } from "./styles";
 
 export default function Login() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [buttonType, setButtonType] = useState(false);
   const [btnSingup, setBtnSingup] = useState(true);
-  const navigate = useNavigate();
 
-  const loginForm = (e: any) => {
-    e.preventDefault();
-    console.log("login", email, password);
-    if (btnSingup && (name === "" || email === "" || password === "")) {
-      return toast.error("Você precisa preencher os campos!", {
-        autoClose: false,
-      });
-    } else if (
-      email === "italosport110@hotmail.com" &&
-      password === "123" &&
-      !btnSingup
-    ) {
-      navigate("/search");
-    }
-    // try{
-    //   const res = api.post('http://localhost:3333/users',{name,email,password})
-    //   toast.success("Success Notification !");
-    // }catch(e){
-    //   toast.error("Verifique suas informações. Usuário não existe!");
-    // }
-  };
+  const {
+    loginForm,
+    loginGoogle,
+    registerForm,
+    setName,
+    setEmail,
+    setPassword,
+  } = useContext(AuthContext) as any;
+
+  function handleCallbackResponse(response: any) {
+    console.log(response);
+    const decoded: any = jwt_decode(response.credential);
+    console.log("decoded", decoded);
+    setName(decoded.name);
+    setEmail(decoded.email);
+    loginGoogle(response.credential);
+  }
+
+  useEffect(() => {
+    localStorage.removeItem("Token");
+
+    google.accounts.id.initialize({
+      client_id: import.meta.env.VITE_GOOGLE_CLIENT_ID as string,
+      callback: handleCallbackResponse,
+    });
+    google.accounts.id.renderButton(document.getElementById("my-signin2"), {
+      theme: "outline",
+      size: "large",
+      type: "standard",
+    });
+  }, []);
 
   const changeBtn = (e: any) => {
     e.preventDefault();
@@ -76,6 +84,11 @@ export default function Login() {
         <Form>
           {btnSingup ? (
             <>
+              <H1 changeLogin={btnSingup}>Login</H1>
+              <Span>Entre com sua conta.</Span>
+            </>
+          ) : (
+            <>
               <H1 changeLogin={btnSingup}>
                 Cadastra <span>se</span>
               </H1>
@@ -89,11 +102,6 @@ export default function Login() {
                 />
               </Label>
             </>
-          ) : (
-            <>
-              <H1 changeLogin={btnSingup}>Login</H1>
-              <Span>Entre com sua conta.</Span>
-            </>
           )}
           <Label>
             <FiAtSign size={18} />
@@ -104,28 +112,47 @@ export default function Login() {
             />
           </Label>
           <Label>
-            <BsEyeSlash size={18} />
+            <button
+              type="button"
+              onClick={() =>
+                buttonType ? setButtonType(false) : setButtonType(true)
+              }
+            >
+              {buttonType ? <IoEyeSharp size={18} /> : <BsEyeSlash size={18} />}
+            </button>
             <Input
               placeholder="Senha..."
-              type="password"
+              type={buttonType ? "text" : "password"}
               onChange={(e) => setPassword(e.target.value)}
             />
           </Label>
           {btnSingup ? (
-            <P>
-              Já tem conta.{" "}
-              <BtnSingup onClick={(e) => changeBtn(e)}>Clique aqui!</BtnSingup>
-            </P>
+            <>
+              <P>
+                Ainda não tenho conta.{" "}
+                <BtnSingup onClick={(e) => changeBtn(e)}>
+                  Clique aqui!
+                </BtnSingup>
+              </P>
+              <Button type="submit" onClick={loginForm}>
+                Entrar
+              </Button>
+            </>
           ) : (
-            <P>
-              Ainda não tenho conta.{" "}
-              <BtnSingup onClick={(e) => changeBtn(e)}>Clique aqui!</BtnSingup>
-            </P>
+            <>
+              <P>
+                Já tenho conta.{" "}
+                <BtnSingup onClick={(e) => changeBtn(e)}>
+                  Clique aqui!
+                </BtnSingup>
+              </P>
+              <Button type="submit" onClick={registerForm}>
+                Cadastrar
+              </Button>
+            </>
           )}
-          <Button type="submit" onClick={loginForm}>
-            Entrar
-          </Button>
-          <ButtonGoogle>
+
+          <ButtonGoogle id="my-signin2">
             Entrar com o Google
             <FcGoogle size={15} />
           </ButtonGoogle>

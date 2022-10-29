@@ -1,26 +1,29 @@
+import { useContext } from "react";
+import { AiFillFacebook, AiFillInstagram } from "react-icons/ai";
+import { FiEdit } from "react-icons/fi";
 import { Link } from "react-router-dom";
-import logo2 from '../../assets/logo-3.png';
-import EditProfile from '../img/edit.svg';
-import { AiFillInstagram, AiFillFacebook } from 'react-icons/ai';
-import { FiEdit } from 'react-icons/fi';
-import { 
-  PageProfile, 
-  Header, 
+import logo2 from "../../assets/logo-3.png";
+import ModalEdit from "../../components/ModalEdit";
+import { AuthContext } from "../../context/User";
+import EditProfile from "../img/edit.svg";
+import {
+  AboutMe,
   ContainerProfile,
-  Photo,
+  ContentEdit,
+  Header,
+  HistoricTravel,
   ImagemDiv,
+  LikeTravel,
   LogoProfile,
+  PageProfile,
+  Photo,
+  PhotoName,
   ProfileLeft,
   ProfileRight,
-  PhotoName,
-  LikeTravel,
-  AboutMe,
-  ContentEdit,
   RedeSocialAbout,
-  HistoricTravel
-} from './styles'
-import ModalEdit from "../../components/ModalEdit";
+} from "./styles";
 export default function Profile() {
+  const { loggedUser } = useContext(AuthContext) as any;
 
   return (
     <PageProfile>
@@ -39,27 +42,43 @@ export default function Profile() {
               <label htmlFor="#">
                 <input type="file" accept="image/*" />
               </label>
-              <img src='https://picsum.photos/id/1005/200/300' alt="Sua imagem de perfil." />
+              <img
+                src={
+                  loggedUser
+                    ? loggedUser.picture
+                    : "https://picsum.photos/id/1005/200/300"
+                }
+                alt="Sua imagem de perfil."
+              />
             </ImagemDiv>
 
             <PhotoName>
-              <h2>Marcela Castro</h2>
+              <h2>{loggedUser.name}</h2>
             </PhotoName>
           </Photo>
 
           <LikeTravel>
-            <h3>Recomendado por Marcela.</h3>
+            <h3>Recomendado por {loggedUser.name}.</h3>
             <div>
               <h4>Copacabana Palace</h4>
-              <img src='https://picsum.photos/id/1031/200/300' alt="imagem do hotel" />
+              <img
+                src="https://picsum.photos/id/1031/200/300"
+                alt="imagem do hotel"
+              />
             </div>
             <div>
               <h4>Emiliano Hotel</h4>
-              <img src='https://picsum.photos/id/1029/200/300' alt="imagem do hotel" />
+              <img
+                src="https://picsum.photos/id/1029/200/300"
+                alt="imagem do hotel"
+              />
             </div>
             <div>
               <h4>Villa de Trancoso Hotel</h4>
-              <img src='https://picsum.photos/id/122/200/300' alt="imagem do hotel" />
+              <img
+                src="https://picsum.photos/id/122/200/300"
+                alt="imagem do hotel"
+              />
             </div>
           </LikeTravel>
         </ProfileLeft>
@@ -67,23 +86,23 @@ export default function Profile() {
           <AboutMe>
             <h3>Sobre mim</h3>
             <button type="button">
-              <FiEdit/>
+              <FiEdit />
             </button>
 
             <ContentEdit>
-              <p>Sou uma pessoa que apoixonada por viajar!!</p>
+              <p>Sou uma pessoa que sou apoixonada por viajar!!</p>
             </ContentEdit>
 
             <RedeSocialAbout>
               <label>
                 <a href="#">
-                  <AiFillInstagram/>
+                  <AiFillInstagram />
                   <span>Instagram</span>
                 </a>
               </label>
               <label>
                 <a href="#">
-                  <AiFillFacebook/>
+                  <AiFillFacebook />
                   <span>Facebook</span>
                 </a>
               </label>
@@ -98,12 +117,5 @@ export default function Profile() {
 
       <ModalEdit />
     </PageProfile>
-
-
-
-
-
   );
-
-
-};
+}

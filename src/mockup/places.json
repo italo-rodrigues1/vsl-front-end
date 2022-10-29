@@ -1,168 +1,1002 @@
 [
     {
-        "id": 1,
-        "place_name": "Beets",
-        "sku": "54949-004",
-        "price": 27,
-        "category": "Beauty",
-        "location": {
-            "lat": -8.812,
-            "lng": 121.974
-        }
+        "id": "9b19c23b-6561-404c-b36e-69e302775e7f",
+        "place_name": "Yadel",
+        "comments": "Resection of Transverse Colon, Via Opening",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 17.19,
+        "category": "Electrical and Fire Alarm",
+        "location_lat": 1.6054402,
+        "location_lng": 32.8084496
     },
     {
-        "id": 2,
-        "place_name": "Beets",
-        "sku": "54949-004",
-        "price": 27,
-        "category": "Beauty",
-        "location": {
-            "lat": -8.812,
-            "lng": 121.974
-        }
+        "id": "a223a7ba-ae4f-42a7-ab02-db8d8a042e54",
+        "place_name": "Yacero",
+        "comments": "Replacement of Left Lens with Intraoc Telescp, Perc Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 74.84,
+        "category": "Hard Tile & Stone",
+        "location_lat": 11.996688,
+        "location_lng": 125.4500814
     },
     {
-        "id": 3,
-        "place_name": "Beets",
-        "sku": "54949-004",
-        "price": 27,
-        "category": "Beauty",
-        "location": {
-            "lat": -8.812,
-            "lng": 121.974
-        }
+        "id": "c84cbc06-17c1-4199-ba09-c5eb3bae1eee",
+        "place_name": "Blogtags",
+        "comments": "Insert Hybrid Ext Fix in R Humeral Head, Perc Endo",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 32.46,
+        "category": "HVAC",
+        "location_lat": 21.3971282,
+        "location_lng": 106.71167
     },
     {
-        "id": 4,
-        "place_name": "Hotel-Abreu e lima",
-        "highlights": [
-            2,
-            3,
-            2,
-            4
-        ],
-        "sku": "54949-004",
-        "comments": "testando comentário",
-        "imagemUrl": "https://images.pexels.com/photos/96444/pexels-photo-96444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "price": 27,
-        "category": "Recife",
-        "location": {
-            "lat": -7.8986274,
-            "lng": -34.8955087
-        }
+        "id": "13233c72-ddc4-471c-96ba-f7d1882e32b5",
+        "place_name": "Devpulse",
+        "comments": "Magnetic Resonance Imaging (MRI) of Right Shoulder",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 51.93,
+        "category": "Overhead Doors",
+        "location_lat": 23.199183,
+        "location_lng": 113.256439
     },
     {
-        "id": 5,
-        "place_name": "Hotel-Abreu e lima",
-        "highlights": [
-            2,
-            3,
-            2,
-            4
-        ],
-        "sku": "54949-004",
-        "comments": "testando comentário",
-        "imagemUrl": "https://images.pexels.com/photos/96444/pexels-photo-96444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "price": 27,
-        "category": "Recife",
-        "location": {
-            "lat": -7.8986175,
-            "lng": -34.8955087
-        }
+        "id": "18003cab-f837-4357-8d51-7758e4f545da",
+        "place_name": "Tazz",
+        "comments": "Drainage of Right Elbow Joint with Drain Dev, Perc Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 28.46,
+        "category": "HVAC",
+        "location_lat": 33.237626,
+        "location_lng": 72.270844
     },
     {
-        "id": 6,
-        "place_name": "Hotel-Abreu e lima",
-        "highlights": [
-            2,
-            3,
-            2,
-            4
-        ],
-        "sku": "54949-004",
-        "comments": "testando comentário",
-        "imagemUrl": "https://images.pexels.com/photos/96444/pexels-photo-96444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "price": 27,
-        "category": "Recife",
-        "location": {
-            "lat": -7.8986174,
-            "lng": -34.8935087
-        }
+        "id": "adc600d9-a1e0-4325-92cd-d93064dda640",
+        "place_name": "Kazio",
+        "comments": "Destruction of Head & Neck Bursa/Lig, Open Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 39.92,
+        "category": "Waterproofing & Caulking",
+        "location_lat": 33.13782,
+        "location_lng": 111.490964
     },
     {
-        "id": 7,
-        "place_name": "Hotel-Abreu e lima",
-        "highlights": [
-            2,
-            3,
-            2,
-            4
-        ],
-        "sku": "54949-004",
-        "comments": "testando comentário",
-        "imagemUrl": "https://images.pexels.com/photos/96444/pexels-photo-96444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "price": 27,
-        "category": "Recife",
-        "location": {
-            "lat": -7.8966174,
-            "lng": -34.8955787
-        }
+        "id": "c17fb34d-bf4c-4cbf-a35c-9a374112e112",
+        "place_name": "Youopia",
+        "comments": "Removal of Infusion Device from Cerv Jt, Perc Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 95.05,
+        "category": "Fire Sprinkler System",
+        "location_lat": 30.108216,
+        "location_lng": 104.677091
     },
     {
-        "id": 8,
-        "place_name": "Hotel-Abreu e lima",
-        "highlights": [
-            2,
-            3,
-            2,
-            4
-        ],
-        "sku": "54949-004",
-        "comments": "testando comentário",
-        "imagemUrl": "https://images.pexels.com/photos/96444/pexels-photo-96444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "price": 27,
-        "category": "Recife",
-        "location": {
-            "lat": -7.8586174,
-            "lng": -34.8655087
-        }
+        "id": "259ac907-b413-4abc-bca7-1a513081eaf6",
+        "place_name": "Trupe",
+        "comments": "Bypass L Brach Art to L Up Arm Art w Autol Vn, Open",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 82.71,
+        "category": "Landscaping & Irrigation",
+        "location_lat": 24.086165,
+        "location_lng": 115.451043
     },
     {
-        "id": 9,
-        "place_name": "Hotel-Abreu e lima",
-        "highlights": [
-            2,
-            3,
-            2,
-            4
-        ],
-        "sku": "54949-004",
-        "comments": "testando comentário",
-        "imagemUrl": "https://images.pexels.com/photos/96444/pexels-photo-96444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "price": 27,
-        "category": "Recife",
-        "location": {
-            "lat": -7.8986474,
-            "lng": -34.8955087
-        }
+        "id": "88795ce1-badd-4ae2-9c38-d601c9ce7864",
+        "place_name": "Jetwire",
+        "comments": "Introduction of Vasopressor into Periph Vein, Open Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 12.2,
+        "category": "Plumbing & Medical Gas",
+        "location_lat": 15.0026671,
+        "location_lng": -88.751805
     },
     {
-        "id": 10,
-        "place_name": "Hotel-Abreu e lima",
-        "highlights": [
-            2,
-            3,
-            2,
-            4
-        ],
-        "sku": "54949-004",
-        "comments": "testando comentário",
-        "imagemUrl": "https://images.pexels.com/photos/96444/pexels-photo-96444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "price": 27,
-        "category": "Recife",
-        "location": {
-            "lat": -7.89869374,
-            "lng": -34.8955087
-        }
+        "id": "2d2ef671-081b-4734-b372-169af6d15583",
+        "place_name": "Twitterbeat",
+        "comments": "Drainage of Left Lower Leg with Drain Dev, Perc Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 79.64,
+        "category": "Framing (Wood)",
+        "location_lat": 32.6969212,
+        "location_lng": -117.1343318
+    },
+    {
+        "id": "4caa8b8e-40ce-43c7-bb44-a22a23f613f1",
+        "place_name": "Rhynoodle",
+        "comments": "Change Intermittent Pressure Device on Left Foot",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 47.65,
+        "category": "Masonry",
+        "location_lat": 9.1742107,
+        "location_lng": -79.5687728
+    },
+    {
+        "id": "a405938e-8192-4241-bd83-c79377622e4c",
+        "place_name": "Youopia",
+        "comments": "Drainage of Left Ethmoid Bone, Percutaneous Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 58.95,
+        "category": "Structural & Misc Steel Erection",
+        "location_lat": 54.1458603,
+        "location_lng": 49.7613122
+    },
+    {
+        "id": "2bacbd0e-5e20-4552-b277-949c59d9ead7",
+        "place_name": "Quire",
+        "comments": "Excision of R Up Lobe Bronc, Perc Endo Approach, Diagn",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 27.98,
+        "category": "Hard Tile & Stone",
+        "location_lat": 10.4868673,
+        "location_lng": -66.739712
+    },
+    {
+        "id": "3c1d6f46-505c-42c8-99a7-79ccb7d3f29c",
+        "place_name": "Chatterbridge",
+        "comments": "Release Right Lower Eyelid, Open Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 44.23,
+        "category": "Fire Sprinkler System",
+        "location_lat": 48.8315157,
+        "location_lng": 84.606767
+    },
+    {
+        "id": "a493be4e-c7cb-4d7c-ac68-7644a8a57afa",
+        "place_name": "Wordware",
+        "comments": "Excision of Right Carotid Body, Perc Endo Approach, Diagn",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 39.77,
+        "category": "Structural and Misc Steel (Fabrication)",
+        "location_lat": 8.3351462,
+        "location_lng": 124.9801262
+    },
+    {
+        "id": "19d68aaa-0fa0-4c0c-9a51-6fc7e699edaa",
+        "place_name": "Jabbertype",
+        "comments": "Extirpation of Matter from Left Kidney, Endo",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 29.25,
+        "category": "Electrical",
+        "location_lat": 40.6280245,
+        "location_lng": 117.2536039
+    },
+    {
+        "id": "2dcafde9-f877-4813-8758-1fbebe1dd5a7",
+        "place_name": "Tagcat",
+        "comments": "Drainage of Left Foot, Open Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 35.46,
+        "category": "Asphalt Paving",
+        "location_lat": 29.20022,
+        "location_lng": 121.479162
+    },
+    {
+        "id": "dab9113d-3da1-46b5-9416-02b0d0cc4a16",
+        "place_name": "Leexo",
+        "comments": "Extirpation of Matter from Splenic Art, Perc Endo Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 66.33,
+        "category": "Rebar & Wire Mesh Install",
+        "location_lat": 60.5481501,
+        "location_lng": 30.2375726
+    },
+    {
+        "id": "1a44bf35-c637-4631-9d0c-ee92ae9f7a41",
+        "place_name": "Flipstorm",
+        "comments": "Revision of Nonaut Sub in Larynx, Open Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 84.38,
+        "category": "Rebar & Wire Mesh Install",
+        "location_lat": 45.5839189,
+        "location_lng": 5.2733732
+    },
+    {
+        "id": "24e70486-27a3-4dac-a3f9-0c0d36f51b71",
+        "place_name": "Chatterpoint",
+        "comments": "Revision of Synthetic Substitute in R Lens, Extern Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 81.71,
+        "category": "Casework",
+        "location_lat": 54.6119569,
+        "location_lng": 45.9028182
+    },
+    {
+        "id": "df7f42ff-b443-4af2-ade6-54f3ec939aaf",
+        "place_name": "Yodel",
+        "comments": "Revision of Int Fix in R Metacarpocarp Jt, Extern Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 87.57,
+        "category": "Painting & Vinyl Wall Covering",
+        "location_lat": 19.3957419,
+        "location_lng": -97.2826539
+    },
+    {
+        "id": "9101b214-953f-4b1c-a948-e25964ce6695",
+        "place_name": "Skivee",
+        "comments": "Supplement R Hand Tendon with Nonaut Sub, Perc Endo Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 4.24,
+        "category": "Fire Sprinkler System",
+        "location_lat": 23.350767,
+        "location_lng": 112.284638
+    },
+    {
+        "id": "18e8e62e-f16e-4ab8-8506-aea13de1ab8e",
+        "place_name": "Edgeblab",
+        "comments": "Division of Right Ethmoid Bone, Perc Endo Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 59.7,
+        "category": "Waterproofing & Caulking",
+        "location_lat": 57.8661799,
+        "location_lng": 47.1083094
+    },
+    {
+        "id": "12f7a6f4-df4a-4fb5-acb2-6ef58a3c0fb4",
+        "place_name": "Rhynoodle",
+        "comments": "Packing of Right Upper Arm using Packing Material",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 34.04,
+        "category": "Exterior Signage",
+        "location_lat": 48.8334498,
+        "location_lng": 24.5221952
+    },
+    {
+        "id": "a50d6152-998e-4249-8579-a7619239cc84",
+        "place_name": "Meeveo",
+        "comments": "Acupuncture",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 55.55,
+        "category": "Site Furnishings",
+        "location_lat": 28.572029,
+        "location_lng": 109.482078
+    },
+    {
+        "id": "fea20884-ba52-49c0-8738-bd56418d8bea",
+        "place_name": "Edgeblab",
+        "comments": "Supplement Right Clavicle with Synth Sub, Open Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 90.41,
+        "category": "Glass & Glazing",
+        "location_lat": 23.892873,
+        "location_lng": 108.40254
+    },
+    {
+        "id": "168fbf92-6fdc-498e-837e-4322a88d474b",
+        "place_name": "Demimbu",
+        "comments": "Supplement Right Thumb with Autol Sub, Perc Endo Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 30.33,
+        "category": "Exterior Signage",
+        "location_lat": 14.5697429,
+        "location_lng": 121.0190818
+    },
+    {
+        "id": "4f0022bb-439a-4acf-84c6-da20ba58234b",
+        "place_name": "Buzzdog",
+        "comments": "Dilate Mid Colic Art, Bifurc, w 4 Drug-elut, Perc Endo",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 62.04,
+        "category": "Rebar & Wire Mesh Install",
+        "location_lat": 54.76667,
+        "location_lng": 24.8
+    },
+    {
+        "id": "7f87a11e-f692-49f8-b980-4ccaf441341b",
+        "place_name": "Geba",
+        "comments": "Extirpation of Matter from Left Metatarsal, Perc Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 96.41,
+        "category": "Granite Surfaces",
+        "location_lat": 6.027632,
+        "location_lng": -75.431596
+    },
+    {
+        "id": "5ab239f5-c912-4292-a5fd-f5a7fdc442c4",
+        "place_name": "Skipfire",
+        "comments": "Occlusion L Hepatic Duct w Intralum Dev, Perc Endo",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 25.24,
+        "category": "Construction Clean and Final Clean",
+        "location_lat": 28.97844,
+        "location_lng": 117.151796
+    },
+    {
+        "id": "242bdcd2-cb0d-4eb2-a891-1f57eee6bf67",
+        "place_name": "Photobug",
+        "comments": "Repair Respiratory System in POC with Oth Dev, Open Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 15.95,
+        "category": "Drilled Shafts",
+        "location_lat": 30.070933,
+        "location_lng": 118.181531
+    },
+    {
+        "id": "1e9ad099-adaf-4583-9399-912a8e8a957a",
+        "place_name": "Zoomdog",
+        "comments": "Bypass Left Ventricle to Thoracic Artery, Open Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 61.02,
+        "category": "Epoxy Flooring",
+        "location_lat": 8.955271,
+        "location_lng": 126.009711
+    },
+    {
+        "id": "7ea9c7ff-81b3-4fc6-80f4-106ff1159b2a",
+        "place_name": "Realblab",
+        "comments": "Insertion of Intralum Dev into Portal Vein, Open Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 59.35,
+        "category": "Hard Tile & Stone",
+        "location_lat": 48.777799,
+        "location_lng": 1.9639754
+    },
+    {
+        "id": "6b53c596-7eda-4c28-82f8-dff6658405c1",
+        "place_name": "Skyndu",
+        "comments": "Occlusion of Left Large Intestine, Via Opening",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 19.25,
+        "category": "Sitework & Site Utilities",
+        "location_lat": 39.74,
+        "location_lng": -104.98
+    },
+    {
+        "id": "56dc1d2b-c6ae-4464-b825-b93b15cc560d",
+        "place_name": "Eidel",
+        "comments": "Replacement of Nose with Autol Sub, Extern Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 4.68,
+        "category": "HVAC",
+        "location_lat": 40.7886028,
+        "location_lng": -81.4251512
+    },
+    {
+        "id": "d2f5e896-c682-413c-94ad-5ea56cffa79a",
+        "place_name": "Skyble",
+        "comments": "Revision of Autol Sub in L Pelvic Bone, Open Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 40.47,
+        "category": "Masonry",
+        "location_lat": 47.3591366,
+        "location_lng": 2.8002946
+    },
+    {
+        "id": "9f3b91c0-e5fa-47ae-aae6-997278e5eabc",
+        "place_name": "Oyoloo",
+        "comments": "Drain of R Humeral Shaft with Drain Dev, Perc Endo Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 76.71,
+        "category": "Temp Fencing, Decorative Fencing and Gates",
+        "location_lat": 9.8245916,
+        "location_lng": 122.9082413
+    },
+    {
+        "id": "482a3c67-ba47-4d5f-b9bf-3c2ef8b0ddd9",
+        "place_name": "Mydo",
+        "comments": "Bypass R Com Iliac Art to R Ext Ilia w Synth Sub, Perc Endo",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 12.82,
+        "category": "Prefabricated Aluminum Metal Canopies",
+        "location_lat": 14.8431264,
+        "location_lng": 120.8685583
+    },
+    {
+        "id": "1f3b6255-e53c-4059-a241-aa441f4f51d1",
+        "place_name": "Tagtune",
+        "comments": "Reposition Left External Ear, External Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 85.54,
+        "category": "Drilled Shafts",
+        "location_lat": 41.6,
+        "location_lng": -93.61
+    },
+    {
+        "id": "5bb29668-6f3b-4cb2-9cb3-fd5aca9eb977",
+        "place_name": "Babblestorm",
+        "comments": "Drainage of Left Hip Muscle, Percutaneous Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 70.71,
+        "category": "Fire Sprinkler System",
+        "location_lat": -33.6186082,
+        "location_lng": -70.5906057
+    },
+    {
+        "id": "3c4f1c06-810a-4200-9333-bb36022a7d66",
+        "place_name": "Topicstorm",
+        "comments": "Release Left Wrist Bursa and Ligament, Perc Endo Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 41.22,
+        "category": "Landscaping & Irrigation",
+        "location_lat": 22.937244,
+        "location_lng": 113.384129
+    },
+    {
+        "id": "94e0ed90-41ca-4d46-9b02-996df514d7d6",
+        "place_name": "Wikido",
+        "comments": "Remove Ext Fix from R Metatarsotars Jt, Perc Endo",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 13.89,
+        "category": "Prefabricated Aluminum Metal Canopies",
+        "location_lat": -8.4375675,
+        "location_lng": 123.0760876
+    },
+    {
+        "id": "ce760029-fd37-4f5a-b8dc-5b27c358f096",
+        "place_name": "Shufflebeat",
+        "comments": "Insertion of Artif Sphincter into Bladder Neck, Via Opening",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 76.46,
+        "category": "Marlite Panels (FED)",
+        "location_lat": 31.219568,
+        "location_lng": 118.268101
+    },
+    {
+        "id": "5ec3db56-cf9f-45ee-8462-6f4611e382f9",
+        "place_name": "Skipfire",
+        "comments": "Restrict of Ileocecal Valve with Extralum Dev, Perc Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 4.92,
+        "category": "RF Shielding",
+        "location_lat": 53.4431223,
+        "location_lng": 30.9995629
+    },
+    {
+        "id": "51e39769-3334-4cd7-ba2c-4b22a1a99908",
+        "place_name": "Wikizz",
+        "comments": "Gait Training/Functional Ambulation Treatment",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 85.9,
+        "category": "Retaining Wall and Brick Pavers",
+        "location_lat": -7.025202,
+        "location_lng": 107.5259078
+    },
+    {
+        "id": "24be2433-e320-4c40-84c3-a9fbf0395b1f",
+        "place_name": "Twitternation",
+        "comments": "Drainage of Right Subclavian Vein, Perc Endo Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 5.12,
+        "category": "RF Shielding",
+        "location_lat": 30.608675,
+        "location_lng": 114.980217
+    },
+    {
+        "id": "b5fa1c99-bcbd-4d85-b4e6-bd681bbdea59",
+        "place_name": "Twiyo",
+        "comments": "Reattachment of Left Upper Arm, Open Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 24.42,
+        "category": "Termite Control",
+        "location_lat": 13.3539251,
+        "location_lng": 5.2344983
+    },
+    {
+        "id": "d43a0a29-c542-4ff6-a386-98a02f3e1ca7",
+        "place_name": "Jazzy",
+        "comments": "Resection of Cervix, Endo",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 98.98,
+        "category": "Electrical",
+        "location_lat": 49.9851242,
+        "location_lng": 19.3263098
+    },
+    {
+        "id": "dae6ddfc-e52d-4f9e-bf1e-0fb712c30a55",
+        "place_name": "Viva",
+        "comments": "Insertion of Infusion Dev into L Shoulder Jt, Open Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 60.48,
+        "category": "Granite Surfaces",
+        "location_lat": 40.026852,
+        "location_lng": 128.161102
+    },
+    {
+        "id": "ebcada79-3816-46ac-a322-2e91842430a9",
+        "place_name": "Kazu",
+        "comments": "Restrict of Celiac Art with Intralum Dev, Perc Endo Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 59.26,
+        "category": "Landscaping & Irrigation",
+        "location_lat": 34.258826,
+        "location_lng": 108.972883
+    },
+    {
+        "id": "61259a1c-577e-4d96-8625-7df27e67301c",
+        "place_name": "Podcat",
+        "comments": "Repair Left Ring Finger, Open Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 10.47,
+        "category": "Curb & Gutter",
+        "location_lat": 52.3582468,
+        "location_lng": 5.5106628
+    },
+    {
+        "id": "31ae2b2f-8dc1-4fe3-b0a2-584f124635f5",
+        "place_name": "Edgeblab",
+        "comments": "Destruction of Left Pulmonary Artery, Open Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 81.41,
+        "category": "Asphalt Paving",
+        "location_lat": 32.6797904,
+        "location_lng": -5.5781378
+    },
+    {
+        "id": "a8a53ee8-c66f-4de2-9ae1-5f0863f72e04",
+        "place_name": "Youtags",
+        "comments": "Revision of Infusion Device in R Tarsal Jt, Open Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 38.97,
+        "category": "Termite Control",
+        "location_lat": -22.4776906,
+        "location_lng": -46.6347377
+    },
+    {
+        "id": "f98fe49c-e733-4407-bb33-f6fe12f4422e",
+        "place_name": "Babbleset",
+        "comments": "Release Thoracic Duct, Open Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 46.43,
+        "category": "Doors, Frames & Hardware",
+        "location_lat": 38.4618994,
+        "location_lng": -9.1029917
+    },
+    {
+        "id": "93f82083-eb99-494f-b7f8-5eea0ee640f9",
+        "place_name": "Quatz",
+        "comments": "Destruction of Left Testis, Percutaneous Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 24.08,
+        "category": "Drywall & Acoustical (FED)",
+        "location_lat": -8.7678593,
+        "location_lng": 160.6960306
+    },
+    {
+        "id": "dc78c30a-7ea8-4324-9cb5-591a5bed593e",
+        "place_name": "Flashpoint",
+        "comments": "Replace of Chest Subcu/Fascia with Autol Sub, Perc Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 51.38,
+        "category": "Drilled Shafts",
+        "location_lat": 9.9932482,
+        "location_lng": 39.8964772
+    },
+    {
+        "id": "329c8e24-cf57-4b14-8fd5-94aad5f15a1a",
+        "place_name": "Avavee",
+        "comments": "Revision of Drainage Device in Bone Marrow, Perc Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 88.95,
+        "category": "Soft Flooring and Base",
+        "location_lat": 41.3730301,
+        "location_lng": 2.116796
+    },
+    {
+        "id": "f53de782-ad56-4792-b04a-7e3f9333dce6",
+        "place_name": "Plajo",
+        "comments": "Reattachment of Left Trunk Muscle, Open Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 82.02,
+        "category": "Overhead Doors",
+        "location_lat": 32.158702,
+        "location_lng": 35.224177
+    },
+    {
+        "id": "4a714b09-30b4-46cd-bcf3-c2abde3b104a",
+        "place_name": "Yakitri",
+        "comments": "Removal of Radioact Elem from Mediastinum, Extern Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 81.1,
+        "category": "Roofing (Asphalt)",
+        "location_lat": 0.9024684,
+        "location_lng": 120.6545022
+    },
+    {
+        "id": "32e8ac84-8d87-4f30-87ac-79ab3479a39a",
+        "place_name": "Mudo",
+        "comments": "Insertion of Ext Fix into L Patella, Perc Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 10.61,
+        "category": "Ornamental Railings",
+        "location_lat": 40.3942251,
+        "location_lng": -7.8103942
+    },
+    {
+        "id": "b24c80f3-17b0-4c9c-8be7-75c6256abeed",
+        "place_name": "Kwideo",
+        "comments": "Dilate of 3 Cor Art, Bifurc, with 2 Drug-elut, Perc Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 27.64,
+        "category": "Wall Protection",
+        "location_lat": 50.4810642,
+        "location_lng": 34.9654363
+    },
+    {
+        "id": "ba81b53e-777f-46a0-a45a-b5f5d69fc891",
+        "place_name": "Mydeo",
+        "comments": "Dilate of L Radial Art with Intralum Dev, Perc Endo Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 34.73,
+        "category": "Masonry",
+        "location_lat": 8.2540261,
+        "location_lng": 125.0275818
+    },
+    {
+        "id": "3868e888-516a-4f8c-b93d-e3b97c16a4ee",
+        "place_name": "Realblab",
+        "comments": "Drainage of Left Thyroid Artery, Perc Endo Approach, Diagn",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 75.31,
+        "category": "Epoxy Flooring",
+        "location_lat": 29.82,
+        "location_lng": -95.29
+    },
+    {
+        "id": "2fe84272-2cec-4ff2-a3a7-06bc556164fd",
+        "place_name": "Voolith",
+        "comments": "Excision of Anus, Percutaneous Endoscopic Approach, Diagn",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 35.44,
+        "category": "Drywall & Acoustical (MOB)",
+        "location_lat": -26.0880026,
+        "location_lng": 28.1444516
+    },
+    {
+        "id": "2626a192-1c1e-4281-8610-75616002f36a",
+        "place_name": "Mycat",
+        "comments": "Insertion of Radioact Elem into Pericard Cav, Perc Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 10.14,
+        "category": "Drywall & Acoustical (FED)",
+        "location_lat": 25.296878,
+        "location_lng": 60.6459285
+    },
+    {
+        "id": "6c2decaa-cf11-4981-a3d8-e166b19b0141",
+        "place_name": "Feedspan",
+        "comments": "Insertion of Infusion Device into Innom Art, Perc Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 67.66,
+        "category": "Curb & Gutter",
+        "location_lat": 31.04565,
+        "location_lng": 121.409039
+    },
+    {
+        "id": "5006b16b-4f96-495a-bff3-535367bff0f7",
+        "place_name": "Livetube",
+        "comments": "Supplement Left Thorax Muscle with Synth Sub, Open Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 78.96,
+        "category": "Structural & Misc Steel Erection",
+        "location_lat": 28.375338,
+        "location_lng": 85.386976
+    },
+    {
+        "id": "3e79aca2-ac9e-4517-b010-d7143d72482c",
+        "place_name": "Riffwire",
+        "comments": "Low Dose Rate (LDR) Brachytherapy of Pleura using Iodine 125",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 63.77,
+        "category": "Painting & Vinyl Wall Covering",
+        "location_lat": 50.1015135,
+        "location_lng": 1.8573006
+    },
+    {
+        "id": "5377fdf4-5f8f-4748-a9a5-3321b2228487",
+        "place_name": "Izio",
+        "comments": "Drainage of Middle Esophagus with Drain Dev, Via Opening",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 52.14,
+        "category": "Sitework & Site Utilities",
+        "location_lat": 28.572029,
+        "location_lng": 109.482078
+    },
+    {
+        "id": "415dfe2c-1b36-46bb-bedd-c28f21a1b4cf",
+        "place_name": "Photolist",
+        "comments": "Extirpation of Matter from L Metatarsotars Jt, Perc Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 52.57,
+        "category": "Electrical and Fire Alarm",
+        "location_lat": 47.4175416,
+        "location_lng": -72.7840882
+    },
+    {
+        "id": "9ecc03b3-a026-4165-bbf6-1a71a6e9b69f",
+        "place_name": "Tazz",
+        "comments": "Remove Radioact Elem from Head & Neck Subcu/Fascia, Open",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 87.08,
+        "category": "Framing (Wood)",
+        "location_lat": 42.4573467,
+        "location_lng": 18.6442835
+    },
+    {
+        "id": "9eb99ab8-ee03-4475-ae86-096289b7e2ad",
+        "place_name": "Meembee",
+        "comments": "Dilation of Right Pulmonary Vein, Percutaneous Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 46.08,
+        "category": "Roofing (Asphalt)",
+        "location_lat": 31.223878,
+        "location_lng": 121.524135
+    },
+    {
+        "id": "788f97d1-db9d-4ce0-a034-248c9e7655ab",
+        "place_name": "Wordtune",
+        "comments": "Remove of Synth Sub from Up Intest Tract, Perc Endo Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 20.36,
+        "category": "RF Shielding",
+        "location_lat": 60.9842542,
+        "location_lng": 72.6081038
+    },
+    {
+        "id": "3741e34e-a5a6-4a73-9994-ca1ba3e1a3d2",
+        "place_name": "Blogpad",
+        "comments": "Reposition Left Lower Femur with Ring Ext Fix, Open Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 66.55,
+        "category": "Overhead Doors",
+        "location_lat": 23.2675871,
+        "location_lng": -106.3830904
+    },
+    {
+        "id": "06282bd6-e29e-4b52-b710-285aba7cc0c7",
+        "place_name": "Skyble",
+        "comments": "Excision of Right Maxilla, Percutaneous Endoscopic Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 6.43,
+        "category": "Drywall & Acoustical (FED)",
+        "location_lat": 39.4854373,
+        "location_lng": -119.8757349
+    },
+    {
+        "id": "16b87f40-f494-4738-9465-965ca00d3581",
+        "place_name": "Agivu",
+        "comments": "Drainage of Right Temporal Bone, Open Approach, Diagnostic",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 42.68,
+        "category": "Doors, Frames & Hardware",
+        "location_lat": -9.8998206,
+        "location_lng": -75.9922372
+    },
+    {
+        "id": "83aadb0a-b6a9-4377-9798-75f4115611bc",
+        "place_name": "Oyondu",
+        "comments": "Supplement Right 1st Toe with Synth Sub, Open Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 74.93,
+        "category": "RF Shielding",
+        "location_lat": 28.154453,
+        "location_lng": 82.3234843
+    },
+    {
+        "id": "62a7f14b-7082-4087-988a-97b6e45250b1",
+        "place_name": "Topdrive",
+        "comments": "Dilation of Celiac Artery with 4 Drug-elut, Open Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 57.71,
+        "category": "Landscaping & Irrigation",
+        "location_lat": 31.2303904,
+        "location_lng": 121.4737021
+    },
+    {
+        "id": "df931266-58b1-4849-add4-10dc33febe80",
+        "place_name": "Kaymbo",
+        "comments": "Extraction of Sternum Bone Marrow, Percutaneous Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 33.77,
+        "category": "Wall Protection",
+        "location_lat": 37.464539,
+        "location_lng": 121.447852
+    },
+    {
+        "id": "29448883-9d7b-4e53-bb6d-cc24e4f94afb",
+        "place_name": "Zava",
+        "comments": "Occlusion of Azygos Vein with Extralum Dev, Open Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 60.45,
+        "category": "Overhead Doors",
+        "location_lat": 4.4979714,
+        "location_lng": -73.9118159
+    },
+    {
+        "id": "0d83973a-fa76-455d-aa65-8f9bf4f26d6f",
+        "place_name": "Tagopia",
+        "comments": "Repair Carina, Percutaneous Endoscopic Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 2.75,
+        "category": "Marlite Panels (FED)",
+        "location_lat": 39.7975767,
+        "location_lng": -89.6551671
+    },
+    {
+        "id": "f3b64cd3-f410-406c-9d07-e62a6e8cfd5a",
+        "place_name": "Topicblab",
+        "comments": "Reposition Right Subclavian Artery, Percutaneous Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 26.42,
+        "category": "Drilled Shafts",
+        "location_lat": -8.4375675,
+        "location_lng": 123.0760876
+    },
+    {
+        "id": "bd2098f7-cabe-4ca1-9155-40a2c794c12d",
+        "place_name": "Eire",
+        "comments": "Division of Female Perineum, External Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 27.45,
+        "category": "Drywall & Acoustical (FED)",
+        "location_lat": 58.3947207,
+        "location_lng": 49.0525711
+    },
+    {
+        "id": "566c5eb0-a4ff-4358-b6c5-59a61052b431",
+        "place_name": "Janyx",
+        "comments": "Drainage of Descending Colon, Perc Endo Approach, Diagn",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 56.99,
+        "category": "Masonry & Precast",
+        "location_lat": 59.9028865,
+        "location_lng": 30.3175834
+    },
+    {
+        "id": "fa440998-dda1-42e1-b14d-49588c19b050",
+        "place_name": "Thoughtblab",
+        "comments": "Removal of Radioactive Element from Left Eye, Perc Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 80.78,
+        "category": "EIFS",
+        "location_lat": 41.3199734,
+        "location_lng": -7.9720237
+    },
+    {
+        "id": "d14027e8-917b-4440-ac3d-18a3ff01ad1a",
+        "place_name": "Twitterbridge",
+        "comments": "Supplement L Low Arm with Nonaut Sub, Perc Endo Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 78.68,
+        "category": "EIFS",
+        "location_lat": 29.859268,
+        "location_lng": 89.387008
+    },
+    {
+        "id": "7ee420f7-c25b-4962-b20d-cd7e78d45d38",
+        "place_name": "Meedoo",
+        "comments": "Insert of Neuro Lead into Spinal Canal, Perc Endo Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 69.69,
+        "category": "EIFS",
+        "location_lat": 40.9141247,
+        "location_lng": 20.7427213
+    },
+    {
+        "id": "808b8ada-8e3f-4b73-9bee-f0e4688e4dd0",
+        "place_name": "Fivechat",
+        "comments": "Revision of Ext Fix in R Metacarpal, Perc Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 68.61,
+        "category": "Wall Protection",
+        "location_lat": -6.8546403,
+        "location_lng": 107.4293388
+    },
+    {
+        "id": "ea788297-d38e-4e27-a600-96c6b6e5c780",
+        "place_name": "Jabbersphere",
+        "comments": "Bypass R Popl Art to Poplit Art with Autol Vn, Open Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 69.2,
+        "category": "Wall Protection",
+        "location_lat": -13.796667,
+        "location_lng": -73.988056
+    },
+    {
+        "id": "5774c08e-1b88-416c-9de5-e69474f99620",
+        "place_name": "Twitternation",
+        "comments": "Introduce of Oth Therap Subst into Periph Art, Perc Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 13.03,
+        "category": "Sitework & Site Utilities",
+        "location_lat": -6.8482297,
+        "location_lng": 106.6802549
+    },
+    {
+        "id": "29848569-36e5-48ee-a119-342cacc5caa1",
+        "place_name": "Mymm",
+        "comments": "Destruction of Right Femoral Artery, Percutaneous Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 21.67,
+        "category": "Prefabricated Aluminum Metal Canopies",
+        "location_lat": 60.4609132,
+        "location_lng": 25.0250415
+    },
+    {
+        "id": "10d6b679-10f5-4174-91e9-c0456ffce09f",
+        "place_name": "Aibox",
+        "comments": "Excision of Left Seminal Vesicle, Percutaneous Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 9.96,
+        "category": "Drywall & Acoustical (MOB)",
+        "location_lat": 44.7019676,
+        "location_lng": 19.3777049
+    },
+    {
+        "id": "9bfd9af8-ee99-4e3e-83be-b49aa9d8a960",
+        "place_name": "Kwideo",
+        "comments": "Dilation of L Popl Art with 4 Drug-elut, Perc Endo Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 41.13,
+        "category": "Overhead Doors",
+        "location_lat": 45.2625083,
+        "location_lng": 17.427272
+    },
+    {
+        "id": "5b89d792-b9cd-4b43-af6c-9224280a5ad8",
+        "place_name": "Brainverse",
+        "comments": "Occlusion of Transverse Colon, Via Opening",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 42.01,
+        "category": "Fire Protection",
+        "location_lat": 52.416925,
+        "location_lng": 13.6492904
+    },
+    {
+        "id": "832abcb6-20d4-426b-a636-1fd08796a1ad",
+        "place_name": "Ntag",
+        "comments": "Revision of Autol Sub in L Breast, Via Opening",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 88.02,
+        "category": "Drywall & Acoustical (FED)",
+        "location_lat": 60.79832,
+        "location_lng": 10.705945
+    },
+    {
+        "id": "75086bea-dcd9-44dc-8209-3faf6c6d6e47",
+        "place_name": "Skibox",
+        "comments": "Insertion of Infusion Device into R Hand, Perc Endo Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 16.07,
+        "category": "Elevator",
+        "location_lat": 7.0389957,
+        "location_lng": 126.4497814
+    },
+    {
+        "id": "3c9393e9-e6fd-4f97-9ceb-653fea98c8cc",
+        "place_name": "Voomm",
+        "comments": "Detachment at Right 1st Toe, Low, Open Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 81.93,
+        "category": "Epoxy Flooring",
+        "location_lat": -7.1701665,
+        "location_lng": 108.3296983
+    },
+    {
+        "id": "7596d145-d973-413d-b563-3776c245dbc4",
+        "place_name": "Mydo",
+        "comments": "Monitor of Arterial Saturation, Peripheral, Extern Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 80.33,
+        "category": "Marlite Panels (FED)",
+        "location_lat": 13.8811133,
+        "location_lng": 123.6886104
+    },
+    {
+        "id": "590c8f19-4e70-4b1a-b199-de4d2b480ac1",
+        "place_name": "Topiczoom",
+        "comments": "Replacement of L Kidney Pelvis with Synth Sub, Open Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 73.73,
+        "category": "Rebar & Wire Mesh Install",
+        "location_lat": -7.8136774,
+        "location_lng": 110.6794676
+    },
+    {
+        "id": "a640fec7-f9ce-481f-9119-2400ae0c16d6",
+        "place_name": "Youspan",
+        "comments": "Restriction of R Foot Vein with Extralum Dev, Open Approach",
+        "imagemUrl": "https://picsum.photos/200/300.webp",
+        "price": 47.46,
+        "category": "Granite Surfaces",
+        "location_lat": 48.3756394,
+        "location_lng": 43.0842361
     }
 ]
