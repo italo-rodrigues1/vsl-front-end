@@ -35,14 +35,17 @@ import {
 export default function Search() {
   const navigate = useNavigate();
   // const [place, setPlace] = useState<Places | any>([]);
-  const { loggedUser  } = useContext(AuthContext) as any;
+  const { loggedUser } = useContext(AuthContext) as any;
 
   const [inputSearch, setInputSearch] = useState<string>("");
+
   const [btnMenu, setBtnMenu] = useState<boolean>(true);
 
   const [centerMap, setCenterMap] = useState<any>({ lat: "", lng: "" });
   const [loading, setLoading] = useState<boolean>(true);
 
+  const darkMode = localStorage.getItem("darkMode");
+  
   const getCurrentPosition = () => {
     // Pegar a posição atual do usuário(navigator.geolocation é nativo do javascript)
     // Recebe dois parâmetros, um deles é um callback, que é chamado quando a posição for obtida e o outro é o erro
@@ -125,7 +128,7 @@ export default function Search() {
             >
               {/* <TileLayer url="https://a.tile.openstreetmap.org/{z}/{x}/{y}.png"/>*/}
               <TileLayer
-                url={`https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${
+                url={`https://api.mapbox.com/styles/v1/mapbox/${darkMode}-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${
                   import.meta.env.VITE_MAPBOX_TOKEN
                 }`}
               />

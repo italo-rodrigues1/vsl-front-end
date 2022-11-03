@@ -10,6 +10,7 @@ export const ContainerMenu = styled.div`
   box-shadow: 4px 10px 10px rgb(0 0 0 / 10%);
   margin: 0 -70px;
   padding: 10px;
+  text-align: right;
 `;
 
 export const Ul = styled.ul`
@@ -35,5 +36,17 @@ export const Ul = styled.ul`
         background-color: #cccccc;
       }
     }
+  }
+  button {
+    border: none;
+    outline: none;
+    background-color: #00000017;
+    cursor: pointer;
+    font-size: 20px;
+    width: 50px;
+    height: 33px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 0;
   }
 `;
