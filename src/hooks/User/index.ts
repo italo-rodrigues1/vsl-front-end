@@ -14,9 +14,11 @@ export default function useLogin() {
 
   useEffect(() => {
     const token = localStorage.getItem("Token");
-    console.log("email, name >>>>>", email, name);
+    // console.log("email, name >>>>>", email, name);
 
     if (token && (!name || !email)) {
+      console.log("decoded>>>>>");
+
       const decoded: any = jwt_decode(token);
       setName(decoded.name);
       setEmail(decoded.email);
@@ -28,7 +30,7 @@ export default function useLogin() {
     e.preventDefault();
     console.log("login", email, password);
 
-    if (email !== "" || password !== "") {
+    if (email && password) {
       try {
         const { data } = await api.post("/auth", {
           email,
@@ -39,7 +41,8 @@ export default function useLogin() {
         const decoded: any = jwt_decode(data.token);
         console.log("decoded", decoded);
         if (data.message) {
-          toast.warning("Usuario não existe, reveja as informações.");
+          toast.warning("Usuario não existe, reveja suas informações.");
+          return;
         }
         // localStorage.setItem("Token", JSON.stringify(decoded));
         navigate("/search");
@@ -68,7 +71,7 @@ export default function useLogin() {
     e.preventDefault();
     console.log("Cadastro", name, email, password);
 
-    if (name !== "" || email !== "" || password !== "") {
+    if (name && email && password) {
       if (password.length > 6) {
         try {
           const { data } = await api.post("/auth/register", {

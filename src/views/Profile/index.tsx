@@ -24,7 +24,7 @@ import {
 } from "./styles";
 export default function Profile() {
   const { loggedUser } = useContext(AuthContext) as any;
-
+  // const loggedUser = null;
   return (
     <PageProfile>
       <Header>
@@ -45,7 +45,7 @@ export default function Profile() {
               <img
                 src={
                   loggedUser
-                    ? loggedUser.picture
+                    ? loggedUser?.picture
                     : "https://picsum.photos/id/1005/200/300"
                 }
                 alt="Sua imagem de perfil."
@@ -53,12 +53,12 @@ export default function Profile() {
             </ImagemDiv>
 
             <PhotoName>
-              <h2>{loggedUser.name}</h2>
+              <h2>{loggedUser?.name}</h2>
             </PhotoName>
           </Photo>
 
           <LikeTravel>
-            <h3>Recomendado por {loggedUser.name}.</h3>
+            <h3>Recomendado por {loggedUser?.name}.</h3>
             <div>
               <h4>Copacabana Palace</h4>
               <img

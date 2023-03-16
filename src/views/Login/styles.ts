@@ -166,13 +166,15 @@ export const ImgRight = styled.img`
 export const ButtonGoogle = styled.button`
   border: 2px solid #bdbbbb;
   background: none;
-  padding: 10px;
   cursor: pointer;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 5px;
+  div {
+    width: 100%;
+  }
 
   &:hover {
     border-color: #00c897;

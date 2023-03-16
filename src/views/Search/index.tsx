@@ -45,7 +45,7 @@ export default function Search() {
   const [loading, setLoading] = useState<boolean>(true);
 
   const darkMode = localStorage.getItem("darkMode");
-  
+
   const getCurrentPosition = () => {
     // Pegar a posição atual do usuário(navigator.geolocation é nativo do javascript)
     // Recebe dois parâmetros, um deles é um callback, que é chamado quando a posição for obtida e o outro é o erro
@@ -64,6 +64,7 @@ export default function Search() {
         timeout: 30000,
       }
     );
+    localStorage.setItem("darkMode", "dark");
   };
 
   const currentId = (id: any) => {
