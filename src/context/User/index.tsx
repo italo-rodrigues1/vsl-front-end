@@ -5,6 +5,7 @@ interface PropsUserContext {
   loginForm: any;
   loginGoogle: any;
   registerForm: any;
+  handleLogout: any;
   name: any;
   setName: any;
   email: any;
@@ -21,6 +22,7 @@ const AuthContextProvider = ({ children }: any) => {
     loginForm,
     loginGoogle,
     registerForm,
+    handleLogout,
     name,
     setName,
     email,
@@ -34,6 +36,7 @@ const AuthContextProvider = ({ children }: any) => {
     loginForm,
     loginGoogle,
     registerForm,
+    handleLogout,
     name,
     setName,
     email,
@@ -48,4 +51,4 @@ const AuthContextProvider = ({ children }: any) => {
   );
 };
 
-export { AuthContextProvider, AuthContext };
+export { AuthContext, AuthContextProvider };

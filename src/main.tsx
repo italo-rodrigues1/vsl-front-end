@@ -3,11 +3,8 @@ import ReactDOM from "react-dom";
 import { ErrorBoundary } from "react-error-boundary";
 import { BrowserRouter } from "react-router-dom";
 import App from "./App";
+import { ErrorBoundaryMain } from "./components/Error";
 import api from "./services/api";
-
-const componentsError = () => {
-  return <p>Ops... aconteceu um error </p>;
-};
 
 const notificationErrorFrontApi = async (message: any, code: any) => {
   try {
@@ -25,7 +22,7 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <ErrorBoundary
-        FallbackComponent={componentsError}
+        FallbackComponent={ErrorBoundaryMain}
         onError={(message, code) => notificationErrorFrontApi(message, code)}
       >
         <App />

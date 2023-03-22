@@ -95,10 +95,21 @@ export default function useLogin() {
     }
   };
 
+  const handleLogout = async () => {
+    try {
+      const res = await api.get("/api/user/logout");
+      navigate("/");
+      console.log(res);
+    } catch (error) {
+      console.log("Failed to logout ", error);
+    }
+  };
+
   return {
     loginForm,
     loginGoogle,
     registerForm,
+    handleLogout,
     name,
     setName,
     email,

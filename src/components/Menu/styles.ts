@@ -1,4 +1,7 @@
 import styled, { keyframes } from "styled-components";
+interface Props {
+  backgroundColor: any;
+}
 
 export const ContainerMenu = styled.div`
   width: 200px;
@@ -40,13 +43,33 @@ export const Ul = styled.ul`
   button {
     border: none;
     outline: none;
-    background-color: #00000017;
     cursor: pointer;
-    font-size: 20px;
-    width: 50px;
-    height: 33px;
-    text-align: center;
-    border-radius: 10px;
-    padding: 5px 0;
   }
+`;
+
+export const ButtonExit = styled.button`
+  width: 89%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
+  font-size: 16px;
+  &:hover {
+    background-color: #cccccc;
+  }
+`;
+
+export const ButtonDarkMode = styled.button<Props>`
+  background-color: ${(props) =>
+    props.backgroundColor === "white" ? "#e3e3e3" : "#000000b0"};
+  font-size: 20px;
+  width: 50px;
+  height: 33px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px 0;
 `;

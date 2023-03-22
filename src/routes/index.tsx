@@ -16,16 +16,11 @@ const RoutesViews = () => {
     <AuthContextProvider>
       <Routes>
         <Route path="/" element={<Login />} />
+
+        <Route path="/home" element={<Home />} />
+
         <Route path="/register/company" element={<RegisterCompany />} />
 
-        <Route
-          path="/home"
-          element={
-            <PrivateRoute>
-              <Home />
-            </PrivateRoute>
-          }
-        />
         <Route
           path="/search"
           element={

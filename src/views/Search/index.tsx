@@ -64,7 +64,7 @@ export default function Search() {
         timeout: 30000,
       }
     );
-    localStorage.setItem("darkMode", "dark");
+    if (!darkMode) localStorage.setItem("darkMode", "dark");
   };
 
   const currentId = (id: any) => {
@@ -95,9 +95,7 @@ export default function Search() {
             />
             <ButtonSearch type="submit">Search</ButtonSearch>
           </LabelSearch>
-          <ImgUser
-            onClick={() => (btnMenu ? setBtnMenu(false) : setBtnMenu(true))}
-          >
+          <ImgUser onClick={() => setBtnMenu(!btnMenu)}>
             {/* <AiOutlineUser/> */}
             <img
               src={

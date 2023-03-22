@@ -1,14 +1,16 @@
+import { useContext } from "react";
 import { AiOutlineLogin, AiOutlineUser } from "react-icons/ai";
 import { BsSun } from "react-icons/bs";
 import { IoMdNotificationsOutline } from "react-icons/io";
 import { MdOutlineStickyNote2, MdTune } from "react-icons/md";
 import { RiMoonClearLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
-import api from "../../services/api";
-import { ContainerMenu, Ul } from "./styles";
+import { AuthContext } from "../../context/User";
+import { ButtonDarkMode, ButtonExit, ContainerMenu, Ul } from "./styles";
 
 export default function Menu() {
   const darkMode = localStorage.getItem("darkMode");
+  const { handleLogout } = useContext(AuthContext);
 
   const handleDarkMode = () => {
     if (darkMode === "light") {
@@ -18,14 +20,7 @@ export default function Menu() {
     }
     window.location.reload();
   };
-  const handleLogout = () => {
-    try {
-      const res = api.get("/api/user/logout");
-      console.log(res);
-    } catch (err) {
-      console.log("Failed to log out ", err);
-    }
-  };
+
   return (
     <ContainerMenu>
       <Ul>
@@ -53,16 +48,18 @@ export default function Menu() {
             Configuração
           </li>
         </Link>
-        <button type="submit" onClick={handleLogout}>
-          <li>
-            <AiOutlineLogin />
-            Sair
-          </li>
-        </button>
+        <ButtonExit type="button" onClick={handleLogout}>
+          <AiOutlineLogin />
+          Sair
+        </ButtonExit>
 
-        <button type="button" onClick={handleDarkMode}>
-          {darkMode === "light" ? <BsSun /> : <RiMoonClearLine />}
-        </button>
+        <ButtonDarkMode
+          type="button"
+          onClick={handleDarkMode}
+          backgroundColor={darkMode === "light" ? "white" : "black"}
+        >
+          {darkMode === "light" ? <BsSun /> : <RiMoonClearLine color="#fff" />}
+        </ButtonDarkMode>
       </Ul>
     </ContainerMenu>
   );
