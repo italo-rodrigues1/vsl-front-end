@@ -2,9 +2,9 @@ import { useContext } from "react";
 import { AiFillFacebook, AiFillInstagram } from "react-icons/ai";
 import { FiEdit } from "react-icons/fi";
 import { Link } from "react-router-dom";
+import ModalEdit from "../../../components/ModalEdit";
+import { AuthContext } from "../../../context/User";
 import logo2 from "../../assets/logo-3.png";
-import ModalEdit from "../../components/ModalEdit";
-import { AuthContext } from "../../context/User";
 import EditProfile from "../img/edit.svg";
 import {
   AboutMe,

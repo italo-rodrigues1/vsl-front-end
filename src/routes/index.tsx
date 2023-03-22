@@ -1,14 +1,14 @@
 import { Route, Routes } from "react-router-dom";
 import { AuthContextProvider } from "../context/User";
-import About from "../views/About";
-import Details from "../views/Details";
+import RegisterCompany from "../views/Company/RegisterCompany";
 import Home from "../views/Home";
-import Login from "../views/Login";
 import NotFound from "../views/NotFound";
-import Profile from "../views/Profile";
-import RegisterCompany from "../views/RegisterCompany";
-import Search from "../views/Search";
-import Settings from "../views/Settings";
+import About from "../views/User/About";
+import Details from "../views/User/Details";
+import Login from "../views/User/Login";
+import Profile from "../views/User/Profile";
+import Search from "../views/User/Search";
+import Settings from "../views/User/Settings";
 import PrivateRoute from "./authRoute";
 
 const RoutesViews = () => {
