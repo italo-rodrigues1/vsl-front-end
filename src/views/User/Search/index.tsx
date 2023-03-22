@@ -13,13 +13,13 @@ import {
   Tooltip,
 } from "react-leaflet";
 import { Link, useNavigate } from "react-router-dom";
-import LogoMarker from "../../assets/Group 333.svg";
-import CardRemmended from "../../components/CardRemmended";
-import CarouselAndCards from "../../components/Carousel";
-import Menu from "../../components/Menu";
-import { AuthContext } from "../../context/User";
-import place from "../../mockup/places.json";
-import { Places } from "../../types/Places";
+import CardRemmended from "../../../components/CardRemmended";
+import CarouselAndCards from "../../../components/Carousel";
+import Menu from "../../../components/Menu";
+import { AuthContext } from "../../../context/User";
+import place from "../../../mockup/places.json";
+import { Places } from "../../../types/Places";
+import LogoMarker from "../../../assets/Group 333.svg";
 import {
   AreaMarker,
   ButtonSearch,

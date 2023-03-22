@@ -19,7 +19,9 @@ const RoutesViews = () => {
 
         <Route path="/home" element={<Home />} />
 
-        <Route path="/register/company" element={<RegisterCompany />} />
+        <Route path="/company">
+          <Route index element={<RegisterCompany />} />
+        </Route>
 
         <Route
           path="/search"

@@ -7,8 +7,8 @@ import { FcGoogle } from "react-icons/fc";
 import { FiAtSign } from "react-icons/fi";
 import { IoEyeSharp } from "react-icons/io5";
 import { AuthContext } from "../../../context/User";
-import Imageleft from "../../assets/imagem-principal-login.jpg";
-import Logo from "../../assets/logo-1.png";
+import Imageleft from "../../../assets/imagem-principal-login.jpg";
+import Logo from "../../../assets/logo-1.png";
 import {
   BtnSingup,
   Button,

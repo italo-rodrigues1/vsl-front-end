@@ -23,7 +23,7 @@ export default function Home() {
           <img src={LogoImg} alt="Logo na home" />
         </Logo>
         <ContentCard>
-          <Card onClick={() => navigate("/register/company")}>
+          <Card onClick={() => navigate("/company")}>
             Anuncie o seu Hotel
             <p>Hotéis</p>
           </Card>
